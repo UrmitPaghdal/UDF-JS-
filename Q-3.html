@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q==3</title>
+</head>
+
+<body>
+
+    <script>
+        let a = (parseInt(prompt("Enter your first number :")));
+        let b = (parseInt(prompt("Enter your second number :")));
+        let c = (parseInt(prompt("Enter your third number :")));
+        let d = (parseInt(prompt("Enter your fourth number :")));
+
+        console.log("first number = " + a );
+        console.log("second number = " + b );
+        console.log("third number = " + c );
+        console.log("fourth number = " + d );
+
+        function greater() {
+            if (a > b) {
+                if (a > c) {
+                    if (a > d) {
+                        console.log("first number is greater.")
+                    }
+                    else {
+                        console.log("fourth number is greater.")
+                    }
+                }
+                else {
+                    if (c > d) {
+                        console.log("third number is greater.")
+                    }
+                    else {
+                        console.log("fourth number is greater.")
+                    }
+                }
+            }
+            else {
+                if (b > c) {
+                    if (b > d) {
+                        console.log("second number is greater.")
+                    }
+                    else {
+                        console.log("fourth number is greater.")
+                    }
+                }
+                else {
+                    if (c > d) {
+                        console.log("third number is greater.")
+                    }
+                    else {
+                        console.log("fourth number is greater.")
+                    }
+                }
+
+            }
+        }
+
+        console.log(greater())
+    </script>
+
+</body>c 
